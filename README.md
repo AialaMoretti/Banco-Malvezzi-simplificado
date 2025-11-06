@@ -109,5 +109,5 @@ Bianca Aiala
 @aialamoretti
 
 Projeto: Sistema bancário simples
-Desenvolvido em linguagem C como exemplo de manipulação de estruturas e funções.
+desenvolvido em linguagem C como exemplo de manipulação de estruturas e funções.
 Ideal para uso em disciplinas introdutórias de programação estruturada.
