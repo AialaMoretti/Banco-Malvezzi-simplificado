@@ -14,12 +14,19 @@ Nº	Função	Descrição
 2️⃣	Efetuar saque	Realiza um saque da conta, atualizando o saldo.
 
 3️⃣	Efetuar depósito	Permite depositar um valor em uma conta existente.
+
 4️⃣	Efetuar transferência	Transfere valores entre duas contas válidas e ativas.
+
 5️⃣	Consultar conta	Permite consultar informações de uma conta por número ou CPF.
+
 6️⃣	Atualizar dados	Atualiza o telefone e a agência do cliente.
+
 7️⃣	Listar contas	Exibe todas as contas cadastradas, com opção de filtrar por status.
+
 8️⃣	Encerrar conta	Encerra contas com saldo igual a zero.
+
 9️⃣	Sair	Finaliza o sistema de forma segura.
+
 🧠 Estrutura do Código
 
 O programa é dividido em módulos lógicos, organizados por função:
