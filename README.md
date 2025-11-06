@@ -108,6 +108,6 @@ As validações de entrada são simples (sem tratamento de caracteres inválidos
 Bianca Aiala
 @aialamoretti
 
-Projeto: Banco Malvader
+Projeto: Sistema bancário simples
 Desenvolvido em linguagem C como exemplo de manipulação de estruturas e funções.
 Ideal para uso em disciplinas introdutórias de programação estruturada.
