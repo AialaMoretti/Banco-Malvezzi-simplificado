@@ -1,4 +1,4 @@
-🏦 Banco Malvader
+🏦 BANCO MALVADER
 
 Um sistema bancário simples em linguagem C, desenvolvido para fins educacionais.
 O programa permite cadastro e manutenção de contas correntes, simula operações bancárias básicas e mantém todos os dados em memória (sem uso de arquivos ou banco de dados externo).
