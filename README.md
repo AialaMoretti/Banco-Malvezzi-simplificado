@@ -7,8 +7,6 @@ O programa permite cadastro e manutenção de contas correntes, simula operaçõ
 
 O sistema oferece as seguintes operações:
 
-Nº	Função	Descrição
-
 1️⃣	Criar conta	Cadastra um novo cliente e cria uma conta bancária associada.
 
 2️⃣	Efetuar saque	Realiza um saque da conta, atualizando o saldo.
