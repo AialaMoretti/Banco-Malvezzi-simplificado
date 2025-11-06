@@ -1,0 +1,63 @@
+RELATÓRIO TÉCNICO 
+
+Estrutura de Dados
+
+Foram utilizadas duas structs principais:
+
+Cliente → guarda informações pessoais (nome, CPF, e-mail, telefone, etc.) e o status da conta (ativa ou encerrada).
+
+Conta → armazena número da conta, saldo, limite e uma instância de Cliente.
+
+Um vetor estático de contas é usado para armazenar os dados:
+
+Conta contas[MAX_CONTAS];
+int contador_contas = 0;
+
+
+Isso permite o gerenciamento de até um número fixo de contas (ex.: 50), sem necessidade de alocação dinâmica.
+
+Garantia de Unicidade do CPF
+
+Ao criar uma nova conta, o sistema verifica se o CPF já existe entre as contas cadastradas antes de permitir o cadastro.
+Essa verificação é feita percorrendo o vetor de contas e comparando o CPF informado com os já armazenados:
+
+if (strcmp(contas[i].cliente.cpf, novoCPF) == 0)
+
+
+Se encontrar correspondência, o sistema recusa o cadastro e exibe uma mensagem de erro, garantindo unicidade de CPF por cliente.
+
+Projeto das Funções
+
+As operações foram divididas em funções independentes, seguindo o princípio da modularização:
+
+criarConta()
+
+efetuarSaque()
+
+efetuarDeposito()
+
+transferir()
+
+consultarConta()
+
+atualizarDados()
+
+encerrarConta()
+
+Essa divisão torna o código organizado, reutilizável e de fácil manutenção.
+
+Validações Implementadas
+
+CPF único: impede duplicação de clientes.
+
+Saldo suficiente para saque/transferência: o sistema verifica o saldo antes da operação.
+
+Conta ativa: apenas contas com status = 1 podem realizar transações.
+
+Saldo zerado para encerramento: só é possível encerrar contas com saldo igual a zero.
+
+Limites de vetor: evita cadastrar mais contas do que o máximo permitido.
+
+Armazenamento e Processamento
+
+Os dados são mantidos em memória RAM, sem gravação em arquivos.
