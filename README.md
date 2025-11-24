@@ -59,10 +59,8 @@ typedef struct {
 } Conta;
 
 ⚙️ Como Executar
-🔧 Pré-requisitos
 
 Você precisa ter um compilador C instalado.
-Recomenda-se o uso do GCC (disponível no Linux, macOS e Windows via MinGW).
 
 ▶️ Compilação
 
